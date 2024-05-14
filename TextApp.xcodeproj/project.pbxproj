@@ -16,6 +16,8 @@
 		B04219EB2BF3AAC300DB86F8 /* TextAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04219EA2BF3AAC300DB86F8 /* TextAppTests.swift */; };
 		B04219F52BF3AAC300DB86F8 /* TextAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04219F42BF3AAC300DB86F8 /* TextAppUITests.swift */; };
 		B04219F72BF3AAC300DB86F8 /* TextAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04219F62BF3AAC300DB86F8 /* TextAppUITestsLaunchTests.swift */; };
+		B0421A042BF3BDDE00DB86F8 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0421A032BF3BDDE00DB86F8 /* KeychainItemAccessibility.swift */; };
+		B0421A062BF3BE2700DB86F8 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0421A052BF3BE2700DB86F8 /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B04219F02BF3AAC300DB86F8 /* TextAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04219F42BF3AAC300DB86F8 /* TextAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppUITests.swift; sourceTree = "<group>"; };
 		B04219F62BF3AAC300DB86F8 /* TextAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0421A032BF3BDDE00DB86F8 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		B0421A052BF3BE2700DB86F8 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B04219DC2BF3AAC300DB86F8 /* Assets.xcassets */,
 				B04219DE2BF3AAC300DB86F8 /* LaunchScreen.storyboard */,
 				B04219E12BF3AAC300DB86F8 /* Info.plist */,
+				B0421A032BF3BDDE00DB86F8 /* KeychainItemAccessibility.swift */,
+				B0421A052BF3BE2700DB86F8 /* KeychainWrapper.swift */,
 			);
 			path = TextApp;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04219D82BF3AAC000DB86F8 /* ViewController.swift in Sources */,
+				B0421A042BF3BDDE00DB86F8 /* KeychainItemAccessibility.swift in Sources */,
 				B04219D42BF3AAC000DB86F8 /* AppDelegate.swift in Sources */,
 				B04219D62BF3AAC000DB86F8 /* SceneDelegate.swift in Sources */,
+				B0421A062BF3BE2700DB86F8 /* KeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

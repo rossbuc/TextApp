@@ -11,6 +11,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var secret: UITextView!
     override func viewDidLoad() {
+        
+        title = "Nothing to see here"
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let notifiactionCenter = NotificationCenter.default
